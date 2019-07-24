@@ -1,0 +1,100 @@
+.head-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+.head-container .person-name {
+  font-size: 25px;
+  flex: 1;
+  align-items: center;
+  padding: 15px 30px;
+  margin-left: 10%;
+}
+.head-container .head-row {
+  color: #575555;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 12px;
+  flex: 2;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+
+.body-container {
+  background-color: white;
+  border-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  flex: wrap;
+  border-radius: 20px;
+  position: relative;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 5px 10px darkgray;
+}
+
+.body-container__front {
+  overflow: hidden;
+  width: 100%;
+}
+.body-container__front .img {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  overflow: hidden;
+  display: flex;
+}
+.body-container__front .person-fullname {
+  position: absolute;
+  top: 7px;
+  right: 30%;
+  color: white;
+  font-size: 180%;
+}
+.body-container__front .person-title {
+  position: absolute;
+  top: 45px;
+  right: 34%;
+  color: white;
+  font-size: 80%;
+}
+
+.body-container__pic img {
+  position: absolute;
+  top: 20px;
+  left: 5%;
+  width: 100px;
+  display: flex;
+  padding: 2px 2px 2px 2px;
+  background-color: gray;
+}
+
+.body-container__end {
+  position: absolute;
+  bottom: 45%;
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.foot-container {
+  width: 100%;
+  font-size: 80%;
+  position: absolute;
+  bottom: 30px;
+  color: darkgray;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */
